@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Веб-студия | Kwol</title>
+   <meta name="keywords" content="заказать, сайт, создать, kwol, недорого, дешево, "/>
+   <meta name="description" content="Создаем сайты под ключ для онлайн или оффлайн бизнеса. Сделайте первый шаг бизнеса в интернете на новом уровне. "/>
+   <meta name="owner" content="info@kwol.ru"/>
+   <meta name="author" lang="ru" content="kwol"/>
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+   <meta name="robots" content="index,follow"/>
+   <meta http-equiv="content-language" content="ru"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Favicon -->
+   <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+   <!-- CSS
+      ============================================ -->
+   <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/vendor/slick.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/vendor/aos.css">
+   <link rel="stylesheet" href="assets/css/plugins/feature.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!-- Style css -->
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+   <body class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
+      <!-- Start Header -->
+      <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
+         <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
+            <!-- Start Header Left -->
+            <div class="col-lg-2 col-6">
+               <div class="header-left">
+                  <div class="logo">
+                     <a href="index.html">
+                     <img src="assets/images/logo/logo.webp" alt="logo">
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <!-- End Header Left -->
+            <div class="modal fade" id="openlids" tabindex="-1" aria-labelledby="openlidsLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title" id="openlidsLabel">Обратная связь</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                     </div>
+                     <div class="modal-body">
+                        <form id="feedback-form" action="">
+                           <div class="form__group field">
+                              <input type="input" class="form__field" placeholder="Ваше имя" name="name" id='name' required />
+                              <label for="name" class="form__label">Ваше имя:</label>
+                           </div>
+                           <div class="form__group field">
+                              <input type="input" class="maskphone form__field" placeholder="Ваш номер" name="phone" id='phone' required />
+                              <label for="name" class="form__label">Ваш номер:</label>
+                           </div>
+                           <div class="form-group mt--25">
+                              <input type="checkbox" id="okey" name="okey" required oninvalid="setCustomValidity('Для продолжения необходимо подтвердить 🐤')" oninput="setCustomValidity('')" >
+                              <label name="" for="okey" >
+                                 <div class="div-check">
+                                    <a>
+                                    Я осведомлен и соглашаюсь с <a href="terms.html">политикой обработки персональных данных</a>
+                                    </a>
+                                 </div>
+                              </label>
+                           </div>
+                           <div class="mt--30">
+                              <button type="submit" name="submit" class="mr-btn rn-btn" target="_blank"><span>Отправить</span></button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Start Header Center -->
+            <div class="col-lg-10 col-6">
+               <div class="header-center">
+
+                  <!-- Start Header Right  -->
+                  <div class="header-right">
+                     <a class="rn-btn" target="_blank" data-bs-toggle="modal" data-bs-target="#openlids"><span>Оставить заявку</span></a>
+                     
+                     <div class="close-menu d-block">
+                        <span class="closeTrigger">
+                        <i data-feather="x"></i>
+                        </span>
+                     </div>
+                  </div>
+                  <!-- End Header Right  -->
+               </div>
+            </div>
+            <!-- End Header Center -->
+         </div>
+      </header>
+      <!-- End Header Area -->
+      <!-- Start Popup Mobile Menu  -->
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Обратная связь</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+               </div>
+               <div class="modal-body">
+                  <div class="form__group field">
+                     <input type="input" class="form__field" placeholder="Ваше имя" name="name" id='name' required />
+                     <label for="name" class="form__label">Ваше имя:</label>
+                  </div>
+                  <div class="form__group field">
+                     <input type="input" class="maskphone form__field" placeholder="Ваш номер" name="phone" id='phone' required />
+                     <label for="name" class="form__label">Ваш номер:</label>
+                  </div>
+                  <div class="mt--30">
+                     <a class="mr-btn rn-btn" target="_blank"><span>Отправить</span></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Popup Mobile Menu  -->
+      <main class="main-page-wrapper">
+         <!-- Start Slider Area -->
+         <div id="home" class="rn-slider-area">
+            <div class="slide slider-style-1">
+               <div class="container container-one">
+                  <div class="row row--30 align-items-center">
+                     <div class="order-2 order-lg-1 col-lg-12 mt_md--50 mt_sm--50 mt_lg--30">
+                        <div class="content">
+                           <div class="inner">
+                              <h1 class="title">
+                                Политика конфиденциальности сайта
+<span><img class="logo-ih" src="assets/images/logo/logo.webp" alt="logo"></span>.<br>
+
+                              </h1>
+                              <div>
+                                 <p class="description">Настоящим подтверждаю, что я ознакомлен и согласен с условиями Политики в отношении обработки персональных данных. Настоящим я даю разрешение Сайту в целях информирования о товарах и услугах, заключения и исполнения договора купли-продажи обрабатывать - собирать, записывать, систематизировать, накапливать, хранить, уточнять (обновлять, изменять), извлекать, использовать, передавать (в том числе поручать обработку другим лицам), обезличивать, блокировать, удалять, уничтожать - мои персональные данные: фамилию, имя, пол, дату рождения, номера домашнего и мобильного телефонов, адрес электронной почты, а также данные об интересах на основании анализа моих поисковых запросов и посещений Интернет-сайтов. Также я разрешаю в целях информирования о товарах, работах, услугах направлять на указанный мною адрес электронной почты и/или на номер мобильного телефона рекламу и информацию о товарах, работах, услугах и его партнеров.</p>
+                              </div>
+                              <div class="mt-btn">
+                                 <a class="mr-btn rn-btn" href="index.html"><span>На главную</span></a>
+                                 <div class="social-share-inner-left">
+                                    <ul class="social-share d-flex liststyle">
+                                       <li><a class="but-ico" href="mailto:info@kwol.ru"><img class="ico-svg" src="assets/images/icons/mail.webp" alt="">  </a>
+                                       </li>
+                                       <li><a class="but-ico" href="https://api.whatsapp.com/send?phone=79959305565&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82"><img class="ico-svg" src="assets/images/icons/whatsapp.svg" alt="">  </a>
+                                       </li>
+                                       <li class="instagram"><a class="but-ico" href="https://www.instagram.com/kwol.ru/"><i data-feather="instagram"></i></a>
+                                       </li>
+                                       <li><a class="but-ico" href="tg://resolve?domain=kwolru"><img class="ico-svg" src="assets/images/icons/telegram.svg" alt="">  </a>
+                                       </li>
+                                       <li><a class="but-ico" href="tel:+79959305565"><img class="ico-svg" src="assets/images/icons/phone.svg" alt="">  </a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- End Slider Area -->
+
+         <div class="modal fade" id="error" tabindex="-1" aria-labelledby="exampleModal" aria-hidden="true">
+            <div class="modal-dialog">
+               <div class="modal-content">
+               <div class="modal-header"></div>
+<h5 class="modal-title" id="exampleModalLabel">Упс.. <br />Это находится в <br /> разработке</h5>
+                  <div class="modal-body">
+                     <div class="mt--30 row">
+                       <div class="col-md-6">
+
+                       </div>
+                       <div class="thumbnail col-md-6" style="margin-left: 390px;  position: absolute;  margin-top: -200px;">
+                          <div class="inner">
+                             <div class="illustration-editor">
+                                <div class="code-blocks">
+                                   <div class="code code-html">
+                                      <header>
+                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.9999 6.675L13.1999 6.075C12.9999 5.975 12.8999 5.775 12.9999 5.675L13.8999 3.975C14.4999 2.775 13.1999 1.475 11.9999 2.075L10.2999 2.975C10.1999 3.075 9.9999 2.975 9.8999 2.775L9.2999 0.975C8.8999 -0.325 7.0999 -0.325 6.6999 0.975L6.0999 2.775C5.9999 2.975 5.7999 3.075 5.6999 2.975L3.9999 2.075C2.7999 1.475 1.4999 2.775 2.0999 3.975L2.9999 5.675C3.0999 5.775 2.9999 5.975 2.7999 6.075L0.999902 6.675C-0.300098 7.075 -0.300098 8.975 0.999902 9.375L2.7999 9.975C2.9999 9.975 3.0999 10.175 2.9999 10.275L2.0999 11.975C1.4999 13.175 2.7999 14.475 3.9999 13.875L5.6999 12.975C5.8999 12.875 6.0999 12.975 6.0999 13.175L6.6999 14.975C7.0999 16.275 8.9999 16.275 9.3999 14.975L9.9999 13.175C10.0999 12.975 10.2999 12.875 10.3999 12.975L12.0999 13.875C13.2999 14.475 14.5999 13.175 13.9999 11.975L12.9999 10.275C12.8999 10.075 12.9999 9.875 13.1999 9.875L14.9999 9.275C16.2999 8.875 16.2999 7.075 14.9999 6.675ZM7.9999 10.375C6.6999 10.375 5.5999 9.275 5.5999 7.975C5.5999 6.675 6.6999 5.575 7.9999 5.575C9.2999 5.575 10.3999 6.675 10.3999 7.975C10.3999 9.275 9.2999 10.375 7.9999 10.375Z" fill="#4C4F5A"/>
+                                         </svg>
+                                         <h1>HTML</h1>
+                                         <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.7089 7.65105L14.8704 2.02908C15.1112 1.80937 15.2528 1.51212 15.2528 1.18902C15.2528 0.865913 15.1112 0.56866 14.8704 0.348951C14.6296 0.129241 14.3038 0 13.9497 0C13.5956 0 13.2698 0.129241 13.029 0.348951L7.75989 5.1567L2.49077 0.348951C2.24998 0.129241 1.9242 0 1.57009 0C1.21598 0 0.890202 0.129241 0.649409 0.336026C0.380287 0.568659 0.252808 0.878837 0.252808 1.18902C0.252808 1.48627 0.380286 1.78352 0.621079 2.02908C2.23581 3.51535 6.42844 7.3538 6.71173 7.6252L6.74006 7.65105C7.24998 8.11632 8.19898 8.11632 8.7089 7.65105Z" fill="#4C4F5A"/>
+                                         </svg>
+                                      </header>
+                                      <div class="code-content">
+                                         <code>
+                                         <span class="c-r">&lt;div</span> <span class="c-y">class</span><span class="c-w">=</span><span class="c-g">"kwol"</span><span class="c-r">&gt;&lt;/div&gt;</span>
+                                      </div>
+                                      </code>
+                                   </div>
+                                </div>
+                                <div class="code code-css">
+                                   <header>
+                                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                         <path d="M14.9999 6.675L13.1999 6.075C12.9999 5.975 12.8999 5.775 12.9999 5.675L13.8999 3.975C14.4999 2.775 13.1999 1.475 11.9999 2.075L10.2999 2.975C10.1999 3.075 9.9999 2.975 9.8999 2.775L9.2999 0.975C8.8999 -0.325 7.0999 -0.325 6.6999 0.975L6.0999 2.775C5.9999 2.975 5.7999 3.075 5.6999 2.975L3.9999 2.075C2.7999 1.475 1.4999 2.775 2.0999 3.975L2.9999 5.675C3.0999 5.775 2.9999 5.975 2.7999 6.075L0.999902 6.675C-0.300098 7.075 -0.300098 8.975 0.999902 9.375L2.7999 9.975C2.9999 9.975 3.0999 10.175 2.9999 10.275L2.0999 11.975C1.4999 13.175 2.7999 14.475 3.9999 13.875L5.6999 12.975C5.8999 12.875 6.0999 12.975 6.0999 13.175L6.6999 14.975C7.0999 16.275 8.9999 16.275 9.3999 14.975L9.9999 13.175C10.0999 12.975 10.2999 12.875 10.3999 12.975L12.0999 13.875C13.2999 14.475 14.5999 13.175 13.9999 11.975L12.9999 10.275C12.8999 10.075 12.9999 9.875 13.1999 9.875L14.9999 9.275C16.2999 8.875 16.2999 7.075 14.9999 6.675ZM7.9999 10.375C6.6999 10.375 5.5999 9.275 5.5999 7.975C5.5999 6.675 6.6999 5.575 7.9999 5.575C9.2999 5.575 10.3999 6.675 10.3999 7.975C10.3999 9.275 9.2999 10.375 7.9999 10.375Z" fill="#4C4F5A"/>
+                                      </svg>
+                                      <h1>CSS</h1>
+                                      <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                         <path d="M8.7089 7.65105L14.8704 2.02908C15.1112 1.80937 15.2528 1.51212 15.2528 1.18902C15.2528 0.865913 15.1112 0.56866 14.8704 0.348951C14.6296 0.129241 14.3038 0 13.9497 0C13.5956 0 13.2698 0.129241 13.029 0.348951L7.75989 5.1567L2.49077 0.348951C2.24998 0.129241 1.9242 0 1.57009 0C1.21598 0 0.890202 0.129241 0.649409 0.336026C0.380287 0.568659 0.252808 0.878837 0.252808 1.18902C0.252808 1.48627 0.380286 1.78352 0.621079 2.02908C2.23581 3.51535 6.42844 7.3538 6.71173 7.6252L6.74006 7.65105C7.24998 8.11632 8.19898 8.11632 8.7089 7.65105Z" fill="#4C4F5A"/>
+                                      </svg>
+                                   </header>
+                                   <div class="code-content">
+                                      <code>
+                                         <p class="line-1"><span class="c-y">.kwol</span> <span>{</span></p>
+                                         <br/>
+                                         <p class="line-2"><span class="c-p">background</span><span>:</span> <span class="c-y">linear-gradient</span>( </p>
+                                         <br/>
+                                         <p class="line-3"><span class="c-o">-119deg</span>,</p>
+                                         <br/>
+                                         <p class="line-4"><span class="c-y">$gray</span> <span class="c-o">0%</span>,</p>
+                                         <br/>
+                                         <p class="line-5"><span class="c-y">$dark-gray</span> <span class="c-o">100%</span>);}</p>
+                                      </code>
+                                   </div>
+                                </div>
+                                <div class="code code-js">
+                                   <header>
+                                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                         <path d="M14.9999 6.675L13.1999 6.075C12.9999 5.975 12.8999 5.775 12.9999 5.675L13.8999 3.975C14.4999 2.775 13.1999 1.475 11.9999 2.075L10.2999 2.975C10.1999 3.075 9.9999 2.975 9.8999 2.775L9.2999 0.975C8.8999 -0.325 7.0999 -0.325 6.6999 0.975L6.0999 2.775C5.9999 2.975 5.7999 3.075 5.6999 2.975L3.9999 2.075C2.7999 1.475 1.4999 2.775 2.0999 3.975L2.9999 5.675C3.0999 5.775 2.9999 5.975 2.7999 6.075L0.999902 6.675C-0.300098 7.075 -0.300098 8.975 0.999902 9.375L2.7999 9.975C2.9999 9.975 3.0999 10.175 2.9999 10.275L2.0999 11.975C1.4999 13.175 2.7999 14.475 3.9999 13.875L5.6999 12.975C5.8999 12.875 6.0999 12.975 6.0999 13.175L6.6999 14.975C7.0999 16.275 8.9999 16.275 9.3999 14.975L9.9999 13.175C10.0999 12.975 10.2999 12.875 10.3999 12.975L12.0999 13.875C13.2999 14.475 14.5999 13.175 13.9999 11.975L12.9999 10.275C12.8999 10.075 12.9999 9.875 13.1999 9.875L14.9999 9.275C16.2999 8.875 16.2999 7.075 14.9999 6.675ZM7.9999 10.375C6.6999 10.375 5.5999 9.275 5.5999 7.975C5.5999 6.675 6.6999 5.575 7.9999 5.575C9.2999 5.575 10.3999 6.675 10.3999 7.975C10.3999 9.275 9.2999 10.375 7.9999 10.375Z" fill="#4C4F5A"></path>
+                                      </svg>
+                                      <h1>JS</h1>
+                                      <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                         <path d="M8.7089 7.65105L14.8704 2.02908C15.1112 1.80937 15.2528 1.51212 15.2528 1.18902C15.2528 0.865913 15.1112 0.56866 14.8704 0.348951C14.6296 0.129241 14.3038 0 13.9497 0C13.5956 0 13.2698 0.129241 13.029 0.348951L7.75989 5.1567L2.49077 0.348951C2.24998 0.129241 1.9242 0 1.57009 0C1.21598 0 0.890202 0.129241 0.649409 0.336026C0.380287 0.568659 0.252808 0.878837 0.252808 1.18902C0.252808 1.48627 0.380286 1.78352 0.621079 2.02908C2.23581 3.51535 6.42844 7.3538 6.71173 7.6252L6.74006 7.65105C7.24998 8.11632 8.19898 8.11632 8.7089 7.65105Z" fill="#4C4F5A"></path>
+                                      </svg>
+                                   </header>
+                                   <div class="code-content">
+                                      <code>
+                                      <span class="c-y">var</span> <span class="c-b">colors</span> = [<span class="c-g">#4dc1e9</span>, <span class="c-g">#0568cc</span>, <span class="c-g">#4fbaed</span>];<br><br>
+                                      <span class="c-c">// Сделай это</span><br>
+                                      <span class="c-y">function</span> <span class="c-b">animate</span>() {}
+                                      </code>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+
+                     </div>
+                     <a class="mr-btn rn-btn" data-bs-dismiss="modal" target="_blank"><span>Закрыть</span></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      <!-- Start Footer Area -->
+      <div class="rn-footer-area foot-er rn-section-gap section-separator">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4">
+                  <div class="footer-area f-flex text-center">
+                     <div class="logo">
+                        <a href="index.html">
+                        <img src="assets/images/logo/logo.webp" alt="logo">
+                        </a>
+                     </div>
+                     <p class="text-footer pt-20">
+                        +7(995)930-55-65
+                     </p>
+                     <p class="text-footer">
+                        info@kwol.ru
+                     </p>
+                     <ul class="social-share d-flex liststyle">
+                        <li><a class="but-ico" href="mailto:info@kwol.ru"><img class="ico-svg" src="assets/images/icons/mail.webp" alt="">  </a>
+                        </li>
+                        <li><a class="but-ico" href="https://api.whatsapp.com/send?phone=79959305565&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%85%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%81%D0%B0%D0%B9%D1%82"><img class="ico-svg" src="assets/images/icons/whatsapp.svg" alt="">  </a>
+                        </li>
+                        <li><a class="but-ico" href="tg://resolve?domain=kwolru"><img class="ico-svg" src="assets/images/icons/telegram.svg" alt="">  </a>
+                        </li>
+                        <li><a class="but-ico" href="tel:+79959305565"><img class="ico-svg" src="assets/images/icons/phone.svg" alt="">  </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="footer-area text-center">
+                     <p class="des">
+                        Навигация
+                     </p>
+
+                     <ul class="primary-menu nav-footer nav-pills">
+                       <li class="nav-item"><a class="nav-link-fr smoth-animation active" href="#home">Главная</a></li>
+                       <li class="nav-item"><a class="nav-link-fr smoth-animation" href="#we">Нас выбирают</a></li>
+                       <li class="nav-item"><a class="nav-link-fr smoth-animation" href="#project">Кейсы</a></li>
+                       <li class="nav-item"><a class="nav-link-fr smoth-animation" href="#ser">Услуги</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="footer-area text-center">
+                     <ul class="primary-menu nav-footer nav-pills">
+                        <br />
+                        <!--<li class="nav-item-fr"><a class="nav-link-fr smoth-animation" href="#project">Кейсы</a></li>-->
+                        <li class="nav-item-fr"><a class="nav-link-fr smoth-animation" href="#contacts">Контакты</a></li>
+                        <li class="nav-item-fr"><a class="nav-link-fr " href="terms.html">Политика <br /> конфиденциальности</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-12">
+                  <p class="copyright">© 2022 "kwol group" | Все права защищены</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Footer Area -->
+      <!-- JS ============================================ -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.min.js"></script>
+      <script src="assets/js/vendor/modernizer.min.js"></script>
+      <script src="assets/js/vendor/feather.min.js"></script>
+      <script src="assets/js/vendor/slick.min.js"></script>
+      <script src="assets/js/vendor/bootstrap.js"></script>
+      <script src="assets/js/vendor/text-type.js"></script>
+      <script src="assets/js/vendor/wow.js"></script>
+      <script src="assets/js/vendor/aos.js"></script>
+      <script src="assets/js/mask.js"></script>
+      <script src="assets/js/mask-duble.js"></script>
+      <script src="assets/js/mail.js"></script>
+      <script src="assets/js/mail.js"></script>
+      <script src="assets/js/vendor/particles.js"></script>
+      <!-- main JS -->
+
+
+      <script>
+         window.onload = function () {
+           document.body.classList.add('loaded_hiding');
+           window.setTimeout(function () {
+             document.body.classList.add('loaded');
+             document.body.classList.remove('loaded_hiding');
+           }, 500);
+         }
+      </script>
+      <script src="assets/js/main.js"></script>
+      <script>
+         1
+         2
+         3
+         4
+         5
+         6
+         7
+         8
+         9
+         10
+         11
+         12
+         13
+         $( ".preloader-ring" ).each(function() {
+             let text = $(this).text(),
+             textArr = text.split(''),
+             a = 0;
+             $(this).html('');
+             for (let i = 0; i <= 30; i++) {
+                 if (!textArr[i] || textArr[i] == " ") {
+                     textArr[i] = "";
+                 }
+                 $(this).append('<div class="preloader-sector" style="transform: rotateY(' +a+ 'deg) translateZ(120px)">'+textArr[i]+'</div>');
+                 a = a+12;
+             }
+         });
+      </script>
+   </body>
+</html>
